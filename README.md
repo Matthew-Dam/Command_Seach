@@ -41,16 +41,11 @@ pip install -r requirements.txt
 
 ### GUI Interface (Recommended)
 ```bash
-python frontend.py
-```
-or
-```bash
-python frontend2.py
-```
+cyber_terminal.py
 
 ### Command-Line Interface
 ```bash
-python main.py
+cyber_terminal.py
 ```
 Then enter commands like:
 - `open netflix` - Opens Netflix
@@ -75,10 +70,7 @@ Then enter commands like:
 
 ```
 SignOpen/
-├── main.py              # CLI interface
-├── frontend.py          # Advanced cyberpunk GUI
-├── frontend2.py         # Alternative GUI
-├── cyber_terminal.py    # Terminal emulator component
+├──cyber_terminal.py     # Advanced cyberpunk GUI
 ├── movie_sites.py       # Movie/TV streaming services database
 ├── music_site.py        # Music platform services database
 ├── social_media.py      # Social media platform services database
@@ -90,7 +82,7 @@ SignOpen/
 ## Architecture
 
 - **Backend Modules**: Separate modules manage different service categories
-- **Multiple Frontends**: Choose between CLI or GUI experiences
+- **Clean terminal-like GUI**: Choose between CLI or GUI experiences
 - **Extensible Design**: Easily add new services by updating the respective database files
 
 ## License
