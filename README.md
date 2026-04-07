@@ -1,5 +1,5 @@
 [README.md](https://github.com/user-attachments/files/26554082/README.md)
-# SignOpen
+# CommandSearch
 
 A cyberpunk-themed command-line interface application that provides quick access to streaming services, music platforms, social media, and AI tools. SignOpen combines a sleek neon aesthetic with practical functionality for seamless web navigation.
 
